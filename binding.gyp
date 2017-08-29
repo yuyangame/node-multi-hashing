@@ -33,6 +33,7 @@
                 "jh.c",
                 "c11.c",
                 "Lyra2.c",
+                "Lyra2RE.c",
                 "Sponge.c",
                 "sha3/sph_hefty1.c",
                 "sha3/sph_fugue.c",
