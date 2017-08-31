@@ -120,6 +120,7 @@ OBJS := \
 	$(obj).target/$(TARGET)/sha3/sph_hefty1.o \
 	$(obj).target/$(TARGET)/sha3/sph_fugue.o \
 	$(obj).target/$(TARGET)/sha3/aes_helper.o \
+	$(obj).target/$(TARGET)/sha3/haval_helper.o \
 	$(obj).target/$(TARGET)/sha3/sph_blake.o \
 	$(obj).target/$(TARGET)/sha3/sph_bmw.o \
 	$(obj).target/$(TARGET)/sha3/sph_cubehash.o \
