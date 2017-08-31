@@ -202,7 +202,7 @@ int blake2s_compress( blake2s_state *S, const uint8_t block[BLAKE2S_BLOCKBYTES] 
 	size_t i;
 	for( i = 0; i < 16; ++i )
 		m[i] = load32( block + i * sizeof( m[i] ) );
-	size_t i;
+
 	for( i = 0; i < 8; ++i )
 		v[i] = S->h[i];
 
@@ -246,7 +246,7 @@ int blake2s_compress( blake2s_state *S, const uint8_t block[BLAKE2S_BLOCKBYTES] 
 	ROUND( 7 );
 	ROUND( 8 );
 	ROUND( 9 );
-	size_t i;
+
 	for( i = 0; i < 8; ++i )
 		S->h[i] = S->h[i] ^ v[i] ^ v[i + 8];
 
@@ -345,10 +345,10 @@ int main( int argc, char **argv )
 	size_t i;
 	for( i = 0 ; i < BLAKE2S_KEYBYTES; ++i )
 		key[i] = ( uint8_t )i;
-	size_t i;
+
 	for( i = 0; i < KAT_LENGTH; ++i )
 		buf[i] = ( uint8_t )i;
-	size_t i;
+	
 	for( i = 0; i < KAT_LENGTH; ++i )
 	{
 		uint8_t hash[BLAKE2S_OUTBYTES];
