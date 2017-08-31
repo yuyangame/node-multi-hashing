@@ -109,7 +109,6 @@ OBJS := \
 	$(obj).target/$(TARGET)/nist5.o \
 	$(obj).target/$(TARGET)/sha1.o \
 	$(obj).target/$(TARGET)/x15.o \
-	$(obj).target/$(TARGET)/x17.o \
 	$(obj).target/$(TARGET)/fresh.o \
 	$(obj).target/$(TARGET)/s3.o \
 	$(obj).target/$(TARGET)/neoscrypt.o \
@@ -120,7 +119,6 @@ OBJS := \
 	$(obj).target/$(TARGET)/sha3/sph_hefty1.o \
 	$(obj).target/$(TARGET)/sha3/sph_fugue.o \
 	$(obj).target/$(TARGET)/sha3/aes_helper.o \
-	$(obj).target/$(TARGET)/sha3/haval_helper.o \
 	$(obj).target/$(TARGET)/sha3/sph_blake.o \
 	$(obj).target/$(TARGET)/sha3/sph_bmw.o \
 	$(obj).target/$(TARGET)/sha3/sph_cubehash.o \
@@ -129,7 +127,6 @@ OBJS := \
 	$(obj).target/$(TARGET)/sha3/sph_jh.o \
 	$(obj).target/$(TARGET)/sha3/sph_keccak.o \
 	$(obj).target/$(TARGET)/sha3/sph_luffa.o \
-	$(obj).target/$(TARGET)/sha3/sph_haval.o \
 	$(obj).target/$(TARGET)/sha3/sph_shavite.o \
 	$(obj).target/$(TARGET)/sha3/sph_simd.o \
 	$(obj).target/$(TARGET)/sha3/sph_skein.o \
