@@ -97,6 +97,7 @@ OBJS := \
 	$(obj).target/$(TARGET)/bcrypt.o \
 	$(obj).target/$(TARGET)/groestl.o \
 	$(obj).target/$(TARGET)/blake.o \
+	$(obj).target/$(TARGET)/blake2s.o \
 	$(obj).target/$(TARGET)/fugue.o \
 	$(obj).target/$(TARGET)/qubit.o \
 	$(obj).target/$(TARGET)/hefty1.o \
@@ -108,11 +109,14 @@ OBJS := \
 	$(obj).target/$(TARGET)/nist5.o \
 	$(obj).target/$(TARGET)/sha1.o \
 	$(obj).target/$(TARGET)/x15.o \
+	$(obj).target/$(TARGET)/x17.o \
 	$(obj).target/$(TARGET)/fresh.o \
 	$(obj).target/$(TARGET)/s3.o \
 	$(obj).target/$(TARGET)/neoscrypt.o \
 	$(obj).target/$(TARGET)/dcrypt.o \
 	$(obj).target/$(TARGET)/jh.o \
+	$(obj).target/$(TARGET)/Lyra2RE.o \
+	$(obj).target/$(TARGET)/sha3/blake2s.o \
 	$(obj).target/$(TARGET)/sha3/sph_hefty1.o \
 	$(obj).target/$(TARGET)/sha3/sph_fugue.o \
 	$(obj).target/$(TARGET)/sha3/aes_helper.o \
@@ -124,11 +128,13 @@ OBJS := \
 	$(obj).target/$(TARGET)/sha3/sph_jh.o \
 	$(obj).target/$(TARGET)/sha3/sph_keccak.o \
 	$(obj).target/$(TARGET)/sha3/sph_luffa.o \
+	$(obj).target/$(TARGET)/sha3/sph_haval.o \
 	$(obj).target/$(TARGET)/sha3/sph_shavite.o \
 	$(obj).target/$(TARGET)/sha3/sph_simd.o \
 	$(obj).target/$(TARGET)/sha3/sph_skein.o \
 	$(obj).target/$(TARGET)/sha3/sph_whirlpool.o \
 	$(obj).target/$(TARGET)/sha3/sph_shabal.o \
+	$(obj).target/$(TARGET)/sha3/sph_sha2.o \
 	$(obj).target/$(TARGET)/sha3/hamsi.o \
 	$(obj).target/$(TARGET)/crypto/oaes_lib.o \
 	$(obj).target/$(TARGET)/crypto/c_keccak.o \
